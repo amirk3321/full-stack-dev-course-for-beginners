@@ -18,7 +18,10 @@
 <a href="https://youtu.be/Bn2kusNXrsk">Full Stack Developer Crash Course for Beginners | part 5 | 2023 | URDU</a>
 <br/>
 <img src="https://user-images.githubusercontent.com/10207753/84770526-2589fa00-aff1-11ea-83bf-f1255b9371ac.jpg" width="50" height="30" />
-<a href="#">Full Stack Developer Crash Course for Beginners | part 6 | 2023 | URDU coming soong</a>
+<a href="https://youtu.be/XDU2a6AyqS8">Full Stack Developer Crash Course for Beginners | part 6 | 2023 | URDU</a>
+<br/>
+<img src="https://user-images.githubusercontent.com/10207753/84770526-2589fa00-aff1-11ea-83bf-f1255b9371ac.jpg" width="50" height="30" />
+<a href="#">Full Stack Developer Crash Course for Beginners | part 7 | 2023 | URDU coming soong</a>
 </p>
 <br />
 
