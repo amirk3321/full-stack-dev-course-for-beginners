@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "9b060425-8f60-4f0d-8024-5918a1a631ba",
+		"name": "mongodb apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4515682",
+		"_collection_link": "https://lively-crescent-342679.postman.co/workspace/full-stack-dev-api-testing~70461fa7-905e-422d-844a-a3066830294a/collection/4515682-9b060425-8f60-4f0d-8024-5918a1a631ba?action=share&creator=4515682&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "addNewUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"name\": \"node\",\n        \"email\": \"node@dev.com\",\n        \"followers\":10,\n        \"following\":0,\n        \"accountType\":\"user\",\n        \"interest\" : [\"art\",\"technology\",\"travel\"]\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/v1/user/addNewUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"user",
+						"addNewUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"userId\":\"64c4beb674f8c13c7c179b7d\",\n        \"name\": \"node js\",\n        \"followers\":10,\n        \"following\":0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/v1/user/updateUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"user",
+						"updateUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"userId\":\"64c4beb674f8c13c7c179b7d\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/v1/user/deleteuser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"user",
+						"deleteuser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/v1/user/getUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"user",
+						"getUsers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
